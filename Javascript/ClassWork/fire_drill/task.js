@@ -53,6 +53,7 @@ return -1;
 }	
 
 function reverseArray(arr){
+	let num = 0;
 	let reverseArray = 0;
 	while(num!=0) {
 		reverseArray = reverseArray *10 + num%10;
